@@ -15,7 +15,7 @@ const PostDetailPage: NextPage<Props> = ({ post }) => {
   return (
     <MainLayout title={`${post.title} post`}>
       <Link href="/">
-        <BackToHome>Home</BackToHome>
+        <BackToHome> Main </BackToHome>
       </Link>
       <Divier />
       <Post post={post} />
@@ -38,9 +38,14 @@ export async function getServerSideProps({ query }) {
 export default PostDetailPage;
 
 const BackToHome = styled.a`
-  color: #2f5fd1;
-  cursor: pointer;
-  display: block;
+  color: #000;
+  border-bottom: 1px solid;
+  padding-bottom: 2px;
+  &:hover {
+    color: blue;
+    cursor: pointer;
+    padding-bottom: 5px;
+  }
 `;
 
 const Divier = styled.div`

@@ -18,7 +18,11 @@ export const PostItem: React.FC<Props> = ({ post }) => {
 
 const Container = styled.div`
   width: 100%;
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   padding: 32px;
   cursor: pointer;
+  &:hover {
+    background-color: #eeeeee;
+    color: #000;
+  }
 `;

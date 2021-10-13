@@ -27,12 +27,19 @@ const Header = styled.div`
 `;
 
 const Title = styled.h1`
-  color: #222222;
-  font-size: 18px;
-  font-weight: bold;
+    color: #222222;
+    font-size: 18px;
+    font-weight: bold;
+    width: 80%;
+    border: 1px solid #000;
+    padding: 10px;
 `;
 
 const Content = styled.p`
-  font-size: 14px;
-  color: #222222;
+    font-size: 14px;
+    color: #222222;
+    width: 80%;
+    height: 300px;
+    border: 1px solid #000;
+    padding: 10px;
 `;

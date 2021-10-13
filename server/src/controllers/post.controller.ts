@@ -4,28 +4,28 @@ import { Service } from 'typedi';
 const posts = [
   {
     id: "5",
-    title: "5th POST title",
-    content: "5th post content"
+    title: "title 5",
+    content: "content 5"
   },
   {
     id: "4",
-    title: "4 POST title",
-    content: "4th post content"
+    title: "title 4",
+    content: "content 4"
   },
   {
     id: "3",
-    title: "3rd POST title",
-    content: "3rd post content"
+    title: "title 3",
+    content: "content 3"
   },
   {
     id: "2",
-    title: "2nd POST title",
-    content: "2nd post content"
+    title: "title 2",
+    content: "content 2"
   },
   {
     id: "1",
-    title: "1st POST title",
-    content: "1st post content"
+    title: "title 1",
+    content: "content 1"
   }
 ];
 

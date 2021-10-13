@@ -6,7 +6,7 @@ export const Header: React.FC = () => {
   return (
     <Container>
       <Link href="/">
-        <Logo>Post-app</Logo>
+        <Logo>Blog</Logo>
       </Link>
     </Container>
   );
