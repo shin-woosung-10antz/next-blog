@@ -1,0 +1,27 @@
+{
+  "name": "next-posts-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shin-woosung-10antz/next-blog.git",
+  "author": "shin woosung <shin.woosung@10antz.co.jp>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^11.1.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "@types/react": "^16.9.13",
+    "@types/styled-components": "^5.1.15",
+    "babel-plugin-styled-components": "^1.13.2",
+    "typescript": "^3.7.2"
+  }
+}
